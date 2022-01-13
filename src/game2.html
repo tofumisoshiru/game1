@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+       <meta charset="utf-8">
+       <title>Test</title>
+       <link rel="stylesheet" href="static/design.css">
+       <!-- 読み込むライブラリ -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+       <script src="http://p5play.molleindustria.org/lib/p5.play.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+   </head>
+   <body>
+        <div id="game2"></div>
+
+        <form class="main2" name="main2" autocomplete="off">
+            <input class="btn" type="button" value="実行" onclick="go()">
+            <input class="btn" type="button" value="再読込" onclick="window.location.reload();">
+            <input class="btn" type="button" value="次へ" onclick="pageTrans2()">
+            <br>
+        </form>
+
+        <form class="printf" name="printf" autocomplete="on">
+            <h3 class="printfhead">文字列を表示する</h3>
+            printf("<div id="edit_area1" style="display: inline-block; _display: inline;"></div>");<br>
+        </form>
+
+        <form class="calnum" name="calnum" autocomplete="on">
+            <h3 class="calnumhead">数値計算</h3>
+            x = <input type="text" name="calnum" size="2" value="">;<br>
+            score = score + x;
+        </form>
+
+        <form class="if" name="if" autocomplete="on">
+            <h3 class="ifhead">条件文(的が0個になったら花火が上がる)</h3>
+
+            if(Target == <kbd>未実装</kbd>){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;//花火が1回上がる<br>
+            }
+        </form>
+
+        <form class="for" name="for" autocomplete="on">
+            <h3 class="forhead">ループ文</h3>
+            for(i = 0; i &lt; <kbd>未実装</kbd>; i++){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;//花火が上がる<br>
+            }
+        </form>
+
+       <!-- 自分の書いたソースコードの読み込み -->
+       <script src="static/main.js"></script>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   </body>
+</html>
