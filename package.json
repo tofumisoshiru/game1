@@ -1,15 +1,1 @@
-{
-    "name": "game1",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.html"
-    },
-    "author": "me",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1"
-    }
-}
+{}
